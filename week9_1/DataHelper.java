@@ -9,7 +9,7 @@ public class DataHelper {
     private ArrayList<Data> dataList = new ArrayList<>();
 
     DataHelper() throws FileNotFoundException {
-        File file = new File("/Users/sigh/IdeaProjects/JavaFX/src/Data.txt");
+        File file = new File("/Users/sigh/IdeaProjects/JavaFX/Data.txt");
         Scanner input = new Scanner(file);
         while(input.hasNext()){
             Data data = new Data();

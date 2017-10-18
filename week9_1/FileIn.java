@@ -10,7 +10,7 @@ public class FileIn {
 
     public String in() throws IOException {
         String content = null;
-        File file = new File("/Users/sigh/IdeaProjects/JavaFX/src/File.txt");
+        File file = new File("/Users/sigh/IdeaProjects/JavaFX/File.txt");
         FileReader reader = null;
         try {
             reader = new FileReader(file);
